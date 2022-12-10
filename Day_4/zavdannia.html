@@ -48,6 +48,45 @@
         <input id="paypal" type="radio" name="payment" value="paypal"><br><br>
         <button type="submit">Pay</button>
     </div>
+</form><br><br>
+
+<form name="crypto" method="POST">
+    <select name="crypto_currency">
+        <option value="" disabled selected hidden>Get Cryptocurrency</option>
+        <option value="bitcoin">Bitcoin</option>
+        <option value="ethereum">Ethereum</option>
+        <option value="tether">Tether</option>
+        <option value="binance_coin">Binance Coin</option>
+        <option value="cardano">Cardano</option>
+    </select>
+</form><br><br>
+
+<form name="registration" method="POST">
+    <h2>Registration</h2>
+    <label for="first_name">First name</label><br>
+    <input id="first_name" type="text" name="first_name" placeholder="Enter your name"><br><br>
+    <label for="last_name">Last name</label><br>
+    <input id="last_name" type="text" name="last_name" placeholder="Enter your surname"><br><br>
+    <p>Gender</p>
+    <label for="male">Male</label>
+    <input id="male" type="radio" name="gender" value="male" checked>
+    <label for="female">Female</label>
+    <input id="female" type="radio" name="gender" value="female"><br><br>
+    <label for="birthday">Birthday</label><br>
+    <input id="birthday" type="date" name="birthday"><br><br>
+    <label for="about_you">Write about yourself</label><br>
+    <textarea id="about_you" name="about_you" cols="30" rows="10">A few words about who you are</textarea><br><br>
+    <select name="course">
+        <option value="" disabled selected hidden>Choose a course</option>
+        <option value="backend">Backend</option>
+        <option value="frontend">Frontend</option>
+        <option value="web">Wed design</option>
+        <option value="3d">3D design</option>
+    </select><br><br>
+    <label for="photo">Add a photo</label><br>
+    <input id="photo" type="file"><br><br>
+    <button type="submit">Sign Up</button>
 </form>
+
 </body>
 </html>
