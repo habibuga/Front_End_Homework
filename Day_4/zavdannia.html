@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Завдання - Лекція 4</title>
+</head>
+<body>
+<form name="auth_form" method="POST">
+    <label for="email">Email</label><br>
+    <input id="email" type="text" name="email" placeholder="Enter your email" maxlength="100"><br><br>
+    <label for="password">Password</label><br>
+    <input id="password" type="password" name="password" placeholder="Enter your password"><br><br>
+    <button type="submit">Sign in</button>
+</form><br><br>
+
+<form name="icecream" method="POST">
+    <h1>Ice cream wholesale</h1>
+    <h2>Choose taste and amount of ice cream</h2>
+    <div>
+        <input id="vanilla_tick" type="checkbox" name="vanilla" value="vanilla" checked>
+        <label for="vanilla_tick">vanilla</label><br>
+        <label for="vanilla_qt">quantity</label>
+        <input id="vanilla_qt" type="number" name="vanilla_qt" placeholder="99" min="20" max="100"><br><br>
+        <i>Price per unit 15₴</i>
+    </div><br><br>
+    <div>
+        <input id="chocolate_tick" type="checkbox" name="chocolate" value="chocolate" checked>
+        <label for="chocolate_tick">chocolate</label><br>
+        <label for="chocolate_qt">quantity</label>
+        <input id="chocolate_qt" type="number" name="chocolate_qt" placeholder="99" min="20" max="100"><br><br>
+        <i>Price per unit 20₴</i>
+    </div><br><br>
+    <div>
+        <input id="strawberry_tick" type="checkbox" name="strawberry" value="strawberry" checked>
+        <label for="strawberry_tick">strawberry</label><br>
+        <label for="strawberry_qt">quantity</label>
+        <input id="strawberry_qt" type="number" name="strawberry_qt" placeholder="99" min="20" max="100"><br><br>
+        <i>Price per unit 18₴</i>
+    </div><br><br>
+    <div>
+        <h2>Payment</h2>
+        <label for="credit_card">Credit card</label>
+        <input id="credit_card" type="radio" name="payment" value="credit_card" checked>
+        <label for="paypal">Paypal</label>
+        <input id="paypal" type="radio" name="payment" value="paypal"><br><br>
+        <button type="submit">Pay</button>
+    </div>
+</form>
+</body>
+</html>
