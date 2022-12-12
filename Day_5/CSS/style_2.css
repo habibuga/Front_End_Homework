@@ -1,0 +1,47 @@
+h1{
+  font-size: 40px;
+  font-weight: 600;
+     text-align: center;
+  }
+
+div{
+    text-align: center;
+    color: midnightblue;
+}
+
+footer{
+    text-align: center;
+    margin-top: 10px;
+    border-top: 2px solid green;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(172, 238, 203, 0.8);
+}
+
+img{
+    border: 2px solid midnightblue;
+}
+
+p{
+    text-align: center;
+    border-bottom: 2px solid green;
+    border-top: 2px solid green;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+span{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button{
+    background-color: darkblue;
+    padding: 5px 10px;
+    margin: 10px 10px 3px 10px;
+}
+
+a{
+    color: white;
+}
+
