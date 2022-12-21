@@ -1,0 +1,17 @@
+a{
+    color: green;
+    text-decoration: none;
+}
+
+.text span{
+    font-weight: bold;
+}
+
+.text span span{
+    color: red;
+    text-transform: uppercase;
+}
+
+p span:nth-child(1){
+    color: red;
+}
