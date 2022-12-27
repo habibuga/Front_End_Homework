@@ -1,0 +1,64 @@
+a{
+    color: green;
+    text-decoration: none;
+}
+
+.text span{
+    font-weight: bold;
+}
+
+.text span span{
+    color: red;
+    text-transform: uppercase;
+}
+
+div p:first-child span:nth-child(2){
+    color: green;
+}
+
+div p:nth-child(2) span:first-child{
+    color: red;
+}
+
+div p:nth-child(2) span:nth-child(2){
+    color: blue;
+}
+
+.course-front{
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+    background-color: yellow;
+    margin: 10px;
+    padding: 10px 0;
+}
+
+.course-front p{
+    background-color: aqua;
+    height: 80px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 0;
+}
+
+.course-front p span{
+    width: 250px;
+    border-style: solid;
+    border-color: white;
+    border-width: 8px;
+    padding: 40px;
+}
+
+.pic-front{
+    background-color: yellow;
+    padding-left: calc((100% - 250px) / 2);
+    padding-right: 0;
+}
+
+.site-link a[href*="ua"]{
+    color: green;
+}
+
+.site-link a[href*="en"]{
+    color: red;
+}

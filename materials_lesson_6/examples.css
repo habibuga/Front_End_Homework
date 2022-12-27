@@ -1,0 +1,73 @@
+/*SELECTORS, CLASS AND ID*/
+/*.title{
+   background-color: #000;
+  }#title-text{
+    padding: 20px;
+  color: #fff;
+  font-size: 20px;
+  }*/
+  
+/*SELECTORS, UNIVERSAL AND ELEMENT*/
+/**{margin: 0;}
+p{font-weight: 600;}
+a{text-decoration: none;}*/
+
+/*DESCENDANT SELECTOR*/
+/*p{font-weight: 600;}
+a{text-decoration: none;}
+.contacts{margin-bottom: 20px;}
+.contacts p{font-style: italic;}
+div .call button {text-transform: uppercase;}
+.contacts.main .call button{font-weight: 600;}*/
+
+/*SIBLING AND CHILD SELECTOR*/
+/*.title > p {font-weight: 600;}
+h1 + p{text-transform: uppercase;}
+h1 ~ p{text-decoration: underline double;}*/
+
+/*ATTRIBUTES*/
+/*div[class|="contacts"]{
+   border: 5px solid #000; 
+   max-width: 410px;
+ }
+ div[class^="cont"]{color: blue;}
+ div[class~="contacts"]{color: red;}
+ a[href^="tel:"]{color: green;}
+ button[type="button"]{
+   margin-bottom: 20px;
+   font-weight: 900;
+ }*/
+
+ /*GROUPING*/
+/*h1, 
+h2, 
+p, 
+span {
+color: #00008b; 
+}*/
+
+ /*INHERITANCE*/
+ /*.call{
+  padding: 20px;
+  background-color: yellow;
+  width: 200px;
+ }
+ button{
+  padding: inherit;
+ }*/
+
+ /*IMPORTANT*/
+/*p{
+  color: #008000 !important;
+}
+div p {
+  color: #ff0000;
+}*/
+
+/*CALC*/
+/*div{
+  border: 1px solid #000;
+}
+p{
+  width: calc(50% + 100px);
+}*/
