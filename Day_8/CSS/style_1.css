@@ -143,3 +143,26 @@ body{
     flex-basis: 75%;
     padding-left: 5%;
 }
+
+.why{
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.exac{
+    color: #46B1DE;
+}
+
+.why-desc{
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 30%;
+}
+
+.expl-card-wrapper{
+    display: flex;
+    max-width: 70%;
+}
