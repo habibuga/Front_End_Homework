@@ -164,5 +164,29 @@ body{
 
 .expl-card-wrapper{
     display: flex;
-    max-width: 70%;
+    margin: 10px 15%;
+    background-color: #46B1DE;
+    border-radius: 15px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+
+.expl-card{
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex: 0 0 320px;
+    margin-top: 10px;
+    padding: 1%;
+}
+
+.expl-card-num{
+    color: #46B1DE;
+    font-size: 1.8rem;
+}
+
+.expl-card-name{
+    color: #46B1DE;
+    font-weight: bold;
 }
