@@ -172,6 +172,12 @@ body{
     padding-bottom: 10px;
 }
 
+@media (max-width: 1000px) {
+    .expl-card-wrapper{
+        flex-direction: column;
+    }
+}
+
 .expl-card{
     background-color: white;
     border-radius: 15px;
@@ -179,14 +185,45 @@ body{
     flex: 0 0 320px;
     margin-top: 10px;
     padding: 1%;
+    flex-wrap: wrap;
+    align-items: start;
+    height: 150px;
 }
 
 .expl-card-num{
     color: #46B1DE;
     font-size: 1.8rem;
+    flex-basis: 15%;
 }
 
 .expl-card-name{
     color: #46B1DE;
     font-weight: bold;
+    flex-basis: 85%;
+}
+
+.box-1{
+    white-space: pre-line;
+    order: 1;
+}
+
+.box-2{
+    order: 2;
+}
+
+.box-3{
+    white-space: pre-line;
+    order: 3;
+}
+
+.box-4{
+    order: 4;
+}
+
+.box-5{
+    order: 5;
+}
+
+.box-6{
+    order: 6;
 }
